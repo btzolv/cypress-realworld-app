@@ -10,6 +10,8 @@ describe('Login', () => {
     cy.fixture('user').then((user) => {
       loginPage.login(user.validUser.username, user.validUser.password);
       loginPage.shouldBeLoggedIn();
+      loginPage.validarBoasVindas();
+      cy.screenshot();
     });
   });
 

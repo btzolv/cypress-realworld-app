@@ -41,7 +41,10 @@ class LoginPage {
     shouldDisableButton() {
       cy.get(this.elements.submitButton).should('be.disabled');
     }
-  
+
+    validarBoasVindas() {
+      cy.contains('Get Started with Real World App').should('be.visible');
+    }
   }
   
   export default new LoginPage();

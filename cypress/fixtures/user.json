@@ -1,0 +1,12 @@
+{
+  "validUser": {
+    "username": "beatrizqa",
+    "password": "12345678",
+    "firstName": "Beatriz",
+    "lastName": "QA"
+  },
+  "invalidUser": {
+    "username": "usuario_errado",
+    "password": "senha_errada"
+  }
+}

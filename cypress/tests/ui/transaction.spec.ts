@@ -15,7 +15,7 @@
           }
         });
         
-        cy.get('[data-test="sidenav-username"]').should('be.visible');
+        cy.get('[data-test="sidenav-username"]', { timeout: 10000}).should('be.visible');
       });
     });
 

@@ -18,8 +18,8 @@ class TransactionPage {
     }
   
     selecionarUsuario() {
-      cy.get('[data-test="user-list-search-input"]').should('be.visible').type('Ines');
-      cy.contains('Ines' , { timeout: 10000 }).should('be.visible').click();
+      cy.get('[data-test="user-list-search-input"]').should('be.visible').type('Kylee');
+      cy.contains('Kylee' , { timeout: 10000 }).should('be.visible').click();
     }
   
     preencherValor(valor) {

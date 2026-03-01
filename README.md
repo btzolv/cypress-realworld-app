@@ -30,6 +30,12 @@ Envio de dinheiro entre usuários com saldo suficiente.
 
 Tentativa de envio sem saldo (Cenário Negativo).
 
+Histórico de Transações:
+
+- Visualização de transações pessoais com sucesso (Aba "Mine").
+
+- Validação de estado vazio (Empty State) utilizando cy.intercept() para mockar dados da API.
+
 🐛 Bug Report: Saldo Negativo Permitido
 Durante a execução dos testes automatizados, foi identificada uma falha crítica na regra de negócio:
 
